@@ -18,3 +18,7 @@ scholar('This is a paper title', {language: 'en', since: 2015})
 * `patents`: _Bool_. Include patents or not. Defaults to `true`.
 * `author`: _String_. Include an author with the query
 * `exact`: _Bool_. Search for the exact query or not. Defaults to `true`.
+
+### Contribute
+
+This module uses [standard](https://github.com/feross/standard). Contributions welcome. 

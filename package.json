@@ -1,6 +1,6 @@
 {
   "name": "google-scholar-link",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Automatically link to a Google Scholar page given a query",
   "main": "./index.js",
   "scripts": {
@@ -15,6 +15,14 @@
     "research",
     "publications"
   ],
+  "homepage": "https://github.com/RichardLitt/google-scholar-link",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RichardLitt/google-scholar-link.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RichardLitt/google-scholar-link/issues"
+  },
   "author": "Richard Littauer",
   "license": "MIT"
 }

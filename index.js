@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 module.exports = function (query, options) {
   var author
@@ -13,10 +13,10 @@ module.exports = function (query, options) {
   if (options.since) url += '&as_ylo=' + options.since
 
   // Add the query
-  query = (typeof(query) !== 'string' ? null : query.replace(/ /g, '+'))
+  query = (typeof (query) !== 'string' ? null : query.replace(/ /g, '+'))
   query = '&q=' + (options.exact === 'false' ? query : '"' + query + '"')
   if (options.author) {
-    author = typeof(author) === 'string' ? [options.author] : options.author
+    author = typeof (author) === 'string' ? [options.author] : options.author
     query += '+author%3A' + author.join(encodeURIComponent(','))
   }
 
