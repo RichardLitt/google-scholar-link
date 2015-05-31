@@ -1,6 +1,6 @@
 {
   "name": "google-scholar-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically link to a Google Scholar page given a query",
   "main": "./index.js",
   "scripts": {
