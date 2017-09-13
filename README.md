@@ -1,4 +1,6 @@
 # google-scholar-link
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/RichardLitt/google-scholar-link.svg)](https://greenkeeper.io/)
 Link out to Google Scholar
 
 ### Usage
